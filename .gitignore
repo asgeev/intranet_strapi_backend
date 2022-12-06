@@ -112,4 +112,7 @@ exports
 *.cache
 dist
 build
+strapi
+.tmp
+data.db
 .strapi-updater.json
