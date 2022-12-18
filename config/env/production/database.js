@@ -6,9 +6,9 @@ module.exports = ({ env }) => ({
       connection: {
         host: env('DATABASE_HOST', 'localhost'),
         port: env.int('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'strapi'),
-        user: env('DATABASE_USERNAME', 'strapi'),
-        password: env('DATABASE_PASSWORD', 'strapi'),
+        database: env('DATABASE_NAME'),
+        user: env('DATABASE_USERNAME'),
+        password: env('DATABASE_PASSWORD'),
         ssl: {
           rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
         },

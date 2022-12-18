@@ -7,6 +7,12 @@ Strapi comes with a full featured [Command Line Interface](https://docs.strapi.i
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
 ```
+After 'git clone' project run
+
+npm install
+
+Then run develop mode in your computer
+
 npm run develop
 # or
 yarn develop
