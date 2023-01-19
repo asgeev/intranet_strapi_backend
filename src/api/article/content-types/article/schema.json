@@ -14,25 +14,27 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Content": {
+    "content": {
       "type": "richtext",
       "required": true
     },
-    "Cover": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "slug": {
       "type": "uid",
-      "targetField": "Title",
       "required": true
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

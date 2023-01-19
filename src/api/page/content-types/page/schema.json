@@ -8,19 +8,20 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "timestamps": true,
+    "populateCreatorFields": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
     "slug": {
       "type": "uid",
-      "targetField": "Title",
       "required": true
     },
-    "Content": {
+    "content": {
       "type": "richtext",
       "required": true
     }
